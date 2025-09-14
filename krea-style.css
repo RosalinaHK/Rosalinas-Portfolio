@@ -95,7 +95,28 @@ img {
     margin-bottom: 20px;
     border-radius: 10%;
 }
+a {
+    text-decoration: none;}
 
+.contact {
+    color: black;
+}
+
+a.nav-link:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+    color: lawngreen;
+}
+
+a:active {
+    color: #E75480;
+}
 
 
 main > footer {
