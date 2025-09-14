@@ -24,33 +24,33 @@ header{
     font-weight: 400;
     font-style: normal;
     min-height: calc(100vh - 80px);
+}
 
-    nav{
-        display: flex;
-        flex-direction: column;
-        padding: 1%;
-        background-color: #FF85AD;
-        align-content: end;
-        width: 140px;
-    }
+nav{
+    display: flex;
+    flex-direction: column;
+    padding: 1%;
+    background-color: #FF85AD;
+    align-content: end;
+    width: 140px;
+}
 
-    ul.nav-bar {
-        position: sticky;
-        top: 0;
-        z-index: 1030; /* to prevent the navbar getting covered up by other content */
+ul.nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 1030; /* to prevent the navbar getting covered up by other content */
 
-        display: flex;
-        flex-direction: column;
-        justify-content: space-evenly;
-        height: 50vh;
-    }
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 50vh;
+}
 
 
 
-    li {
-        list-style-type: none;
+li {
+    list-style-type: none;
 
-    }
 }
 a {
     text-decoration: none;}
@@ -75,7 +75,6 @@ a:active {
     color: #E75480;
 }
 
-
 main{
     background-color: #FEF086;
     flex: 1;
@@ -84,33 +83,13 @@ main{
     padding: 4%;
     flex: 1;
 }
+
 }
 
 div.divider{
     height: 80px;
 }
 
-img{
-    width: 60%;
-    display: flex;
-    justify-content: center;
-}
-section#mig {
-    display: flex;
-    justify-content: center;
-}
-img{
-    padding: 5px;
-    border-radius: 20%;
-}
-section.pictures{
-    padding: 10px;
-    display:flex;
-
-}
-section.pictures>img{
-    width: 33%;
-}
 
 
 main > footer {
@@ -137,13 +116,6 @@ main > footer {
 @media screen and (max-width: 500px) {
 
     img {
-        width: 100%;
-    }
-}
-@media screen and (max-width: 500px) {
-    nav {
-        display: flex;
-        flex-direction: column;
         width: 100%;
     }
 }
